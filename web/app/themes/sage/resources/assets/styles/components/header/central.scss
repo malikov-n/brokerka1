@@ -1,0 +1,77 @@
+.header {
+  &__central {
+    &-wrap {
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      column-gap: 20px;
+    }
+
+    &-logo {
+      padding-top: 14px;
+    }
+
+    &-content {
+      position: relative;
+      display: flex;
+      justify-content: flex-end;
+      padding-bottom: 18px;
+
+      &::after {
+        content: "";
+        background: #f3f4f5;
+        height: 1px;
+        width: 100vw;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+      }
+    }
+
+    &-phone {
+      margin-right: 29px;
+      padding-top: 7px;
+      text-align: right;
+
+      a {
+        display: block;
+        font-size: 14px;
+        color: #172a3f;
+        text-align: right;
+        line-height: 25px;
+        white-space: nowrap;
+      }
+    }
+
+    &-opening-hours {
+      margin-right: 29px;
+      padding-top: 7px;
+
+      span {
+        display: block;
+        font-size: 13px;
+        color: #b5bbc2;
+        line-height: 25px;
+      }
+    }
+
+    .button {
+      padding: 20px 32px;
+      font-size: 14px;
+      color: #fff;
+      line-height: 18px;
+    }
+
+    .button-white {
+      margin-right: 8px;
+      border: 1px solid #f3f4f5;
+      background: 0 0;
+      color: #e30000;
+
+      &:hover {
+        background-color: #c00;
+        border-color: #c00;
+        color: #fff;
+      }
+    }
+  }
+}

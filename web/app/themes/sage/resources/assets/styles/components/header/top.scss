@@ -1,0 +1,52 @@
+.header {
+  &__top {
+    padding: 18px 0;
+
+    &-wrap {
+      display: grid;
+      grid-template-columns: 200px 1fr 1fr;
+      column-gap: 20px;
+    }
+
+    &-left {
+      a {
+        font-size: 13px;
+        line-height: 1.225;
+        color: #b5bbc2;
+        fill: #b5bbc2;
+      }
+    }
+
+    &-central {
+      text-align: left;
+    }
+
+    &-right {
+      text-align: right;
+    }
+
+    .top-menu {
+      list-style-type: none;
+
+      &__link {
+        display: block;
+        font-size: 13px;
+        line-height: 1.225;
+        color: #b5bbc2;
+
+        &:hover {
+          color: #e30000;
+        }
+      }
+
+      &__item {
+        display: inline-block;
+        margin-right: 23px;
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}

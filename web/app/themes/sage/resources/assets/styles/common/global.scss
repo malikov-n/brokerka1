@@ -1,6 +1,11 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+  font-family: $font;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 400;
 }
 
 .container {
@@ -8,10 +13,30 @@
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 15px;
   position: relative;
 
   @media screen and (max-width: 1230px) {
     padding-left: 15px;
     padding-right: 15px;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  position: relative;
+  display: inline-block;
+  padding: 16px;
+  border-radius: 4px;
+  background-color: #e30000;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+
+  &:hover {
+    background-color: #c00;
+    border-color: #c00;
   }
 }
