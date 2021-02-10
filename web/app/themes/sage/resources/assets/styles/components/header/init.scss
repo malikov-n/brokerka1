@@ -1,28 +1,9 @@
 @import "top";
 @import "central";
+@import "main_menu";
 
 .header {
-  &__menu {
-    .main-menu {
-      list-style-type: none;
-      display: flex;
-      justify-content: space-between;
-
-      a {
-        display: block;
-        padding: 30px 0;
-        color: #172a3f;
-        -webkit-transition: 0.3s ease color;
-        transition: 0.3s ease color;
-
-        &:hover {
-          color: #e30000;
-        }
-      }
-
-      .submenu {
-        display: none;
-      }
-    }
+  @media screen and (max-width: 1230px) {
+    display: none;
   }
 }

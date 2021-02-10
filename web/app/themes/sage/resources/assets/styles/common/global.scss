@@ -24,19 +24,6 @@
 
 a {
   text-decoration: none;
-}
-
-.button {
-  position: relative;
-  display: inline-block;
-  padding: 16px;
-  border-radius: 4px;
-  background-color: #e30000;
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
-
-  &:hover {
-    background-color: #c00;
-    border-color: #c00;
-  }
+  -webkit-transition: 0.3s ease color;
+  transition: 0.3s ease color;
 }
