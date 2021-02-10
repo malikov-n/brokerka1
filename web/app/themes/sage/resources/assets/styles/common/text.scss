@@ -1,0 +1,19 @@
+.text {
+  &_bold {
+    font-weight: bold;
+  }
+
+  &-color {
+    &_main {
+      color: $main_color;
+    }
+
+    &_second {
+      color: #222;
+    }
+
+    &_darkBackground {
+      color: #fff;
+    }
+  }
+}

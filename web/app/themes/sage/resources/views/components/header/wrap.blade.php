@@ -29,8 +29,8 @@
             <span>с 7:00 до 23:00 МСК</span>
             <span>Звонок бесплатный</span>
           </div>
-          <a href="#" class="btn btn-header btn-header-no-fon">Зарегистрироваться</a>
-          <a href="#" class="btn btn-header">Войти</a>
+          <a href="#" class="button header__central-button header__central-button-second">Зарегистрироваться</a>
+          <a href="#" class="button header__central-button">Войти</a>
         </div>
       </div>
     </div>

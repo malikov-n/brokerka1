@@ -55,5 +55,30 @@
         line-height: 25px;
       }
     }
+
+    &-button {
+      padding: 20px 32px;
+      background-color: $main_color;
+      font-size: 14px;
+      color: #fff;
+      line-height: 18px;
+
+      &:hover {
+        background-color: #37a86a;
+      }
+
+      &-second {
+        margin-right: 8px;
+        border: 1px solid #f3f4f5;
+        background: 0 0;
+        color: $main_color;
+
+        &:hover {
+          background-color: #37a86a;
+          border-color: #37a86a;
+          color: #fff;
+        }
+      }
+    }
   }
 }
