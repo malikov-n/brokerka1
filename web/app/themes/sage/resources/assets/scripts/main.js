@@ -7,6 +7,7 @@ import 'slick-carousel/slick/slick';
 // Import components
 import './components/header/init'
 import './components/slider/init';
+import './components/start_investing/init';
 
 // import local dependencies
 import Router from './util/Router';

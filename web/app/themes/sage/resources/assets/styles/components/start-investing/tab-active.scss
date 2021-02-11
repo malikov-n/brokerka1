@@ -1,0 +1,35 @@
+.start-investing {
+  &__tab {
+    &.active {
+      .start-investing__tab {
+        &-title {
+          &-number {
+            padding-top: 0;
+            fill: $main_color;
+          }
+
+          &-text {
+            color: #28282d;
+          }
+
+          &::after {
+            content: "";
+            display: block;
+            width: 50px;
+            height: 34px;
+            position: absolute;
+            bottom: -11px;
+            left: calc(50% - 25px);
+            background: #fff url("../images/bugorog.svg") no-repeat 50%;
+            background-size: contain;
+            z-index: 1;
+          }
+        }
+
+        &-content {
+          display: block;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+.start-investing {
+  &__tab {
+    &-wrap {
+      position: relative;
+      margin: 60px 0 90px;
+      padding-bottom: 120px;
+      display: grid;
+      grid-template-columns: 245px 245px 245px;
+      justify-content: space-between;
+    }
+
+    &-title {
+      padding-bottom: 70px;
+      position: relative;
+      text-align: center;
+
+      &-number {
+        height: 160px;
+        margin-bottom: 56px;
+        padding-top: 35px;
+        transition: padding-top 600ms ease;
+        fill: #bcc3cc;
+      }
+
+      &-text {
+        color: #7f858d;
+        font-size: 22px;
+        line-height: 26px;
+        letter-spacing: 0.44px;
+      }
+    }
+
+    &-content {
+      display: none;
+      position: absolute;
+      left: 0;
+      width: calc(100%);
+      height: 120px;
+      padding-top: 48px;
+      border-top: 1px solid #dce0e5;
+      text-align: center;
+
+      &-inner {
+        display: inline-block;
+        max-width: 716px;
+        font-size: 18px;
+        color: #28282d;
+        line-height: 1.33;
+        letter-spacing: 0.8px;
+      }
+    }
+  }
+}

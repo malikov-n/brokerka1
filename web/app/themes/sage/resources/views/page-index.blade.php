@@ -5,5 +5,6 @@ Template Name: Главная страница
 
 @section('content')
   @include('components.slider.wrap')
-{{--  Put front page content there--}}
+  @include('components.start_investing.wrap')
+  {{--  Put front page content there--}}
 @endsection

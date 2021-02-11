@@ -1,0 +1,57 @@
+@import "tabs";
+@import "tab-active";
+
+.start-investing {
+  padding: 65px 0;
+
+  &__title {
+    margin-bottom: 24px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #28282d;
+  }
+
+  &__desc {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.4px;
+    color: #7f858d;
+  }
+
+  &__button {
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+
+    &-main {
+      @extend .text-color_darkBackground;
+
+      background: $main_color;
+      padding: 0 36px;
+      font-size: 16px;
+      height: 49px;
+      border: 1px solid $main_color;
+
+      &:hover {
+        background-color: #37a86a;
+      }
+    }
+
+    &-second {
+      margin-left: 24px;
+      color: #28282d;
+      border: 1px solid #dce0e5;
+      background: #fff;
+
+      &:hover {
+        @extend .text-color_darkBackground;
+
+        background-color: #37a86a;
+        border-color: #37a86a;
+      }
+    }
+  }
+}
